@@ -1,0 +1,38 @@
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("https://homebrewery.naturalcrit.com/assets/parchmentBackground.jpg");
+    background-size: cover;
+}
+
+@keyframes disappear {
+    from {
+        transform: translate(0px);
+    }
+    to {
+        transform: translateX(-200%);
+    }
+}
+
+.page {
+    position: absolute;
+    height: 70%;
+    width: 50%;
+    border: black solid 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0px 30px;
+    font-size: 30px;
+    background-color: white;
+    border-image: url("https://homebrewery.naturalcrit.com/assets/frameBorder.png") 200 / 47px / 0.4cm 0.3cm stretch;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    flex-direction: column;
+}
+
+img {
+    height: 70%;
+}
